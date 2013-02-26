@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>Twitter.Typeahead</id>
+        <version>0.8.1-b1</version>
+        <title>Typeahead.js</title>
+        <authors>Twitter,Inc.</authors>
+        <owners />
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/twitter/typeahead.js</projectUrl>
+        <iconUrl>https://secure.gravatar.com/avatar/2f4a8254d032a8ec5e4c48d461e54fcc?s=200</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Inspired by twitter.com's autocomplete search functionality, typeahead.js is a fast and fully-featured autocomplete library.</description>
+        <copyright>2013 Twitter, Inc.</copyright>
+        <tags>typeahead autocomplete twitter</tags>
+        <dependencies>
+            <dependency id="jQuery" version="1.9.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="typeahead.css" target="content\Content\typeahead.css" />
+        <file src="typeahead.min.css" target="content\Content\typeahead.min.css" />
+        <file src="typeahead.js" target="content\Scripts\typeahead.js" />
+        <file src="typeahead.min.js" target="content\Scripts\typeahead.min.js" />
+    </files>
+</package>
