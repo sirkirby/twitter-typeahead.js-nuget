@@ -7,7 +7,7 @@
         <authors>Chris Kirby</authors>
         <owners>sirkirby</owners>
         <projectUrl>https://github.com/sirkirby/twitter-typeahead.js-nuget</projectUrl>
-        <iconUrl>https://secure.gravatar.com/avatar/2f4a8254d032a8ec5e4c48d461e54fcc?s=200</iconUrl>
+        <iconUrl>https://si0.twimg.com/profile_images/3274346907/06a4598eae2f6931bcb890fd01e3f083_bigger.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>This package is meant to complement those using the Twitter.Typeahead library in their MVC 4 application. Upon installation it adds bundling and minification support for easy integration into your shared layouts and views.</description>
         <releaseNotes>- initial release</releaseNotes>
