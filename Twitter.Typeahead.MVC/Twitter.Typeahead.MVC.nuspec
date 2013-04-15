@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Twitter.Typeahead.MVC</id>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
         <title>Typeahead.js for MVC 4</title>
         <authors>Chris Kirby</authors>
         <owners>sirkirby</owners>
@@ -16,7 +16,7 @@
             <group targetFramework=".NETFramework4.0">
                 <dependency id="Microsoft.AspNet.Web.Optimization" version="1.0.0" />
                 <dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
-                <dependency id="Twitter.Typeahead" version="0.9.1" />
+                <dependency id="Twitter.Typeahead" version="0.9.2" />
                 <dependency id="WebActivatorEx" version="2.0.1" />
             </group>
         </dependencies>
