@@ -2,24 +2,26 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Typeahead</id>
-        <version>0.9.3</version>
+        <version>0.10.0</version>
         <title>Typeahead.js</title>
         <authors>Twitter</authors>
         <owners>sirkirby</owners>
         <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
-        <projectUrl>https://github.com/twitter/typeahead.js</projectUrl>
-        <iconUrl>https://si0.twimg.com/profile_images/3274346907/06a4598eae2f6931bcb890fd01e3f083_bigger.png</iconUrl>
+        <projectUrl>http://twitter.github.io/typeahead.js/</projectUrl>
+        <iconUrl>http://twitter.github.io/typeahead.js/img/twitter-logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Inspired by twitter.com's autocomplete search functionality, typeahead.js is a fast and fully-featured autocomplete library.</description>
+        <description>Inspired by twitter.com's autocomplete search functionality, typeahead.js is a flexible JavaScript library that provides a strong foundation for building robust typeaheads. Issues? Please post them here https://github.com/sirkirby/twitter-typeahead.js-nuget/issues</description>
         <releaseNotes>https://github.com/twitter/typeahead.js/blob/master/CHANGELOG.md</releaseNotes>
         <copyright>2013 Twitter, Inc.</copyright>
         <tags>typeahead autocomplete twitter</tags>
         <dependencies>
-            <dependency id="jQuery" version="1.9.1" />
+            <dependency id="jQuery" version="1.10.2" />
         </dependencies>
     </metadata>
     <files>
-        <file src="typeahead.js" target="content\Scripts\typeahead.js" />
-        <file src="typeahead.min.js" target="content\Scripts\typeahead.min.js" />
+        <file src="bloodhound.js" target="content\Scripts\bloodhound.js" />
+        <file src="typeahead.bundle.js" target="content\Scripts\typeahead.bundle.js" />
+        <file src="typeahead.bundle.min.js" target="content\Scripts\typeahead.bundle.min.js" />
+        <file src="typeahead.jquery.js" target="content\Scripts\typeahead.jquery.js" />
     </files>
 </package>
