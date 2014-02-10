@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Twitter.Typeahead.MVC</id>
-        <version>1.1.0</version>
+        <version>1.1.1</version>
         <title>Typeahead.js for MVC 5</title>
         <authors>Chris Kirby</authors>
         <owners>sirkirby</owners>
@@ -10,14 +10,13 @@
         <iconUrl>http://twitter.github.io/typeahead.js/img/twitter-logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>This package is meant to complement those using the Twitter.Typeahead library in their MVC 5 application. Upon installation it adds bundling and minification support for easy integration into your shared layouts and views. Issues? Please post them here https://github.com/sirkirby/twitter-typeahead.js-nuget/issues</description>
-        <releaseNotes>- updated all dependencies to their latest release.
-- added two new bundles to the bundle config</releaseNotes>
+        <releaseNotes>- updated typeahead dependency to latest release</releaseNotes>
         <tags>twitter typeahead autocomplete mvc mvc5</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.0">
                 <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.2" />
                 <dependency id="Microsoft.AspNet.Mvc" version="5.1.0" />
-                <dependency id="Twitter.Typeahead" version="0.10.0" />
+                <dependency id="Twitter.Typeahead" version="0.10.1" />
                 <dependency id="WebActivatorEx" version="2.0.4" />
             </group>
         </dependencies>
