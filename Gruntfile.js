@@ -9,10 +9,15 @@ module.exports = function(grunt) {
         command: 'mkdir dist'
       }
     },
-      nugetpack: {
+    nugetpack: {
       dist: {
         src: 'src/*.nuspec',
         dest: 'dist/'
+      }
+    },
+    nugetpush: {
+      dist: {
+        src: 'dist/*.nupkg'
       }
     }  
   });
@@ -26,5 +31,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-nuget');
 
   // Default task(s).
-  grunt.registerTask('default', ['clean','shell', 'nugetpack']);
+  grunt.registerTask('default', ['clean', 'shell', 'nugetpack']);
+  // Build and publish to nuget task
+  grunt.registerTask('publish', ['clean', 'shell', 'nugetpack', 'nugetpush']);
 };
