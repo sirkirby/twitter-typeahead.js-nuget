@@ -1,3 +1,12 @@
+Twitter.Typeahead
+=================
+Based on the twitter/typeahead.js compiled source
+http://nuget.org/packages/Twitter.Typeahead
+
+Installing
+----------
+`PM> install-package Twitter.Typeahead`
+
 Twitter.Typeahead.MVC
 =================
 This package is meant to replace or complement the Twitter.Typeahead package for those using MVC 5. Upon installation it adds bundling and minification support for easy integration into your shared layouts and views. 
