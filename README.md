@@ -11,13 +11,16 @@ This package is meant to replace or complement the Twitter.Typeahead package for
 For more information on bundling and minification in MVC visit http://www.asp.net/mvc/tutorials/mvc-4/bundling-and-minification
 
 ## Build ##
-Install the grunt cli tools 
+Install the grunt cli tools
+
 `npm install -g grunt-cli`
 
 Install the required modules
+
 `npm install`
 
 build the package to the `dist` folder
+
 `grunt`
 
 ## Installing ##
