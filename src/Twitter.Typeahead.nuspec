@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Twitter.Typeahead</id>
-        <version>0.10.1</version>
+        <version>0.10.2</version>
         <title>Typeahead.js</title>
         <authors>Twitter</authors>
         <owners>sirkirby</owners>
@@ -20,8 +20,10 @@
     </metadata>
     <files>
         <file src="bloodhound.js" target="content\Scripts\bloodhound.js" />
+        <file src="bloodhound.min.js" target="content\Scripts\bloodhound.min.js" />
         <file src="typeahead.bundle.js" target="content\Scripts\typeahead.bundle.js" />
         <file src="typeahead.bundle.min.js" target="content\Scripts\typeahead.bundle.min.js" />
         <file src="typeahead.jquery.js" target="content\Scripts\typeahead.jquery.js" />
+        <file src="typeahead.jquery.min.js" target="content\Scripts\typeahead.jquery.min.js" />
     </files>
 </package>
