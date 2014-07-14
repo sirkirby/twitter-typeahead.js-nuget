@@ -13,13 +13,13 @@ To include the bundles into your layout, simply add the following to the `<head>
 ```c#
 @Scripts.Render("~/bundles/typeahead")
 ```
-with bloodhound
+bloodhound only
 ```c#
-@Scripts.Render("~/bundles/typeahead", "~/bundles/typeahead-bloodhound")
+@Scripts.Render("~/bundles/typeahead-bloodhound")
 ```
-with bloodhound and jquery plugin
+jquery UI view only
 ```c#
-@Scripts.Render("~/bundles/typeahead", "~/bundles/typeahead-bloodhound", "~/bundles/typeahead-jquery")
+@Scripts.Render("~/bundles/typeahead-jquery")
 ```
 
 For more information on bundling and minification in MVC visit http://www.asp.net/mvc/tutorials/mvc-4/bundling-and-minification
