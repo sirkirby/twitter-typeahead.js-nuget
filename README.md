@@ -8,6 +8,20 @@ Based on the twitter/typeahead.js compiled source
 **[Twitter.Typeahead.MVC](http://nuget.org/packages/Twitter.Typeahead.MVC)**
 This package is meant to replace or complement the Twitter.Typeahead package for those using MVC 5. Upon installation it adds bundling and minification support for easy integration into your shared layouts and views. 
 
+To include the bundles into your layout, simply add the following to the `<head>` of your `_Layout.cshtml`
+
+```c#
+@Scripts.Render("~/bundles/typeahead")
+```
+with bloodhound
+```c#
+@Scripts.Render("~/bundles/typeahead", "~/bundles/typeahead-bloodhound")
+```
+with bloodhound and jquery plugin
+```c#
+@Scripts.Render("~/bundles/typeahead", "~/bundles/typeahead-bloodhound", "~/bundles/typeahead-jquery")
+```
+
 For more information on bundling and minification in MVC visit http://www.asp.net/mvc/tutorials/mvc-4/bundling-and-minification
 
 ## Build ##
