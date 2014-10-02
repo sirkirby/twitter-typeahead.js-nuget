@@ -1,6 +1,6 @@
 {
   "name": "typeaheadjs-nuget",
-  "version": "0.10.2",
+  "version": "0.10.5",
   "description": "Public nuget package for Typeahead.js lib.",
   "author": "Chris Kirby",
   "homepage": "https://www.nuget.org/packages/Twitter.Typeahead/",
