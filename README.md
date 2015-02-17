@@ -1,5 +1,7 @@
 Twitter Typeahead.js Nuget Packages
 =================
+
+[![Join the chat at https://gitter.im/sirkirby/twitter-typeahead.js-nuget](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sirkirby/twitter-typeahead.js-nuget?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 All package content files are based on officially released source from the twitter/typeahead.js repository https://github.com/twitter/typeahead.js 
 
 **[Twitter.Typeahead](http://nuget.org/packages/Twitter.Typeahead)**
